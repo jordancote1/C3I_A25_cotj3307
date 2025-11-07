@@ -15832,7 +15832,7 @@
 	(footprint "Library:AMPHENOL_12402012E212A"
 		(layer "F.Cu")
 		(uuid "869796b4-77c7-469d-94c9-4192f055826f")
-		(at 168.26 71.2 90)
+		(at 164.36 71.5 90)
 		(tags "usb")
 		(property "Reference" "J5"
 			(at -1.62 -8.405 90)
@@ -31439,7 +31439,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "85.0000 mm"
+		(gr_text "85,0000 mm"
 			(locked yes)
 			(at 129 32.35 0)
 			(layer "User.1")
@@ -31477,7 +31477,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "50.0000 mm"
+		(gr_text "50,0000 mm"
 			(locked yes)
 			(at 63.35 73.3 90)
 			(layer "User.1")
