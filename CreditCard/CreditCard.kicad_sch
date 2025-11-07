@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "374dba13-75d6-44a0-b8b2-0ca0aa70330e")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,6 +110,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LIB:Fiducial"
 			(exclude_from_sim yes)
@@ -185,12 +190,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -262,7 +272,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -274,7 +284,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -305,12 +315,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -401,7 +416,96 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 146.05 12.7)
+		(end 214.63 74.676)
+		(stroke
+			(width 0.381)
+			(type dash)
+			(color 20 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3e9caa94-19ed-42c9-81ab-c472c024d41f)
+	)
+	(rectangle
+		(start 215.9 12.7)
+		(end 284.48 74.676)
+		(stroke
+			(width 0.381)
+			(type dash)
+			(color 20 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e1cda70b-40ce-49f8-b84b-889ccfc55ef5)
+	)
+	(text "Équipe #10 - C3i\nPCB Carte de crédit\nA25"
+		(exclude_from_sim no)
+		(at 14.478 42.926 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 11.43 11.43)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0453a033-4197-4aac-a536-99c2f2fbf63f")
+	)
+	(text "BOTTOM\n"
+		(exclude_from_sim no)
+		(at 262.636 37.084 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "36b86665-a236-4544-a6c4-460376b733b3")
+	)
+	(text "TESTPOINTS"
+		(exclude_from_sim no)
+		(at 157.734 16.002 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "452a043f-3b13-4279-b188-d6726737dc64")
+	)
+	(text "FIDUCIALS\n"
+		(exclude_from_sim no)
+		(at 225.552 16.002 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "ad964a84-33fc-4207-8b34-7ede5a508a09")
+	)
+	(text "TOP"
+		(exclude_from_sim no)
+		(at 236.474 37.592 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "bf1fdb72-b6c9-4f92-91e6-6383aac64866")
 	)
 	(wire
 		(pts
@@ -442,32 +546,6 @@
 			(type default)
 		)
 		(uuid "fe418865-a72a-4805-aa0e-6124bd695ad0")
-	)
-	(rectangle
-		(start 146.05 12.7)
-		(end 214.63 74.676)
-		(stroke
-			(width 0.381)
-			(type dash)
-			(color 20 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3e9caa94-19ed-42c9-81ab-c472c024d41f)
-	)
-	(rectangle
-		(start 215.9 12.7)
-		(end 284.48 74.676)
-		(stroke
-			(width 0.381)
-			(type dash)
-			(color 20 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e1cda70b-40ce-49f8-b84b-889ccfc55ef5)
 	)
 	(image
 		(at 249.428 114.3)
@@ -3568,68 +3646,6 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4I/8LT1nNACORxKIAAAAASUVORK5CYII="
 		)
 	)
-	(text "Équipe #10 - C3i\nPCB Carte de crédit\nA25"
-		(exclude_from_sim no)
-		(at 14.478 42.926 0)
-		(effects
-			(font
-				(face "Calibri")
-				(size 11.43 11.43)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "0453a033-4197-4aac-a536-99c2f2fbf63f")
-	)
-	(text "BOTTOM\n"
-		(exclude_from_sim no)
-		(at 262.636 37.084 0)
-		(effects
-			(font
-				(size 2.286 2.286)
-				(thickness 0.4064)
-				(bold yes)
-			)
-		)
-		(uuid "36b86665-a236-4544-a6c4-460376b733b3")
-	)
-	(text "TESTPOINTS"
-		(exclude_from_sim no)
-		(at 157.734 16.002 0)
-		(effects
-			(font
-				(size 2.286 2.286)
-				(thickness 0.4064)
-				(bold yes)
-			)
-		)
-		(uuid "452a043f-3b13-4279-b188-d6726737dc64")
-	)
-	(text "FIDUCIALS\n"
-		(exclude_from_sim no)
-		(at 225.552 16.002 0)
-		(effects
-			(font
-				(size 2.286 2.286)
-				(thickness 0.4064)
-				(bold yes)
-			)
-		)
-		(uuid "ad964a84-33fc-4207-8b34-7ede5a508a09")
-	)
-	(text "TOP"
-		(exclude_from_sim no)
-		(at 236.474 37.592 0)
-		(effects
-			(font
-				(size 2.286 2.286)
-				(thickness 0.4064)
-				(bold yes)
-			)
-		)
-		(uuid "bf1fdb72-b6c9-4f92-91e6-6383aac64866")
-	)
 	(symbol
 		(lib_id "LIB:Fiducial")
 		(at 257.81 41.91 0)
@@ -4348,6 +4364,10 @@
 	(sheet
 		(at 24.13 144.78)
 		(size 69.85 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4383,9 +4403,94 @@
 			)
 		)
 	)
+	(sheet
+		(at 22.86 111.76)
+		(size 71.12 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d5cb3ecf-4df4-4562-8860-c43822ba9c77")
+		(property "Sheetname" "PWR"
+			(at 22.86 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWR.kicad_sch"
+			(at 22.86 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CreditCard"
+				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 144.78)
+		(size 78.74 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e30e25a5-3034-4dd4-af11-e901f7261987")
+		(property "Sheetname" "MCU"
+			(at 96.52 144.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 96.52 183.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CreditCard"
+				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
