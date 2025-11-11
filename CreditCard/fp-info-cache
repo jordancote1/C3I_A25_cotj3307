@@ -1,4 +1,4 @@
-26776717336409168
+26778480186968395
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70776,6 +70776,13 @@ GCT_MEM2052-00-195-00-A_REVA
 0
 13
 13
+Library
+GOLD_FINGERS
+
+
+0
+1
+1
 Library
 RGT16_1P7X1P7
 

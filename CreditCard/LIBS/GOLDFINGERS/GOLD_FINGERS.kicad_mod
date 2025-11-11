@@ -1,0 +1,65 @@
+(footprint "GOLD_FINGERS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "703c695f-a92a-463d-bd69-b54e83ff36e8")
+		(effects
+			(font (size 1 1) (thickness 0.1))
+		)
+	)
+	(property "Value" "GOLD_FINGERS"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "88a97e55-8bf0-45d3-bf36-bdb6fb3f26bb")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d915426d-a80b-481b-892a-afdac805d9e6")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e676513d-b768-4257-8537-7e391963dc86")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0626e653-3eba-4b3b-a398-4c77e091937a")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 3 1.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(chamfer_ratio 0.25)
+		(chamfer top_right)
+		(uuid "f67309b6-ad5e-408d-9b88-213ca632fca1")
+	)
+	(embedded_fonts no)
+)
