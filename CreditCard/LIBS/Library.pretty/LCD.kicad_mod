@@ -6,7 +6,7 @@
 	(descr "PH1-11-UA")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at -1.001 7.5005 0)
+		(at -4.5 6.5 0)
 		(layer "F.SilkS")
 		(uuid "2bdba809-8aa0-4f20-88f1-b3217afb9ab1")
 		(effects
@@ -300,13 +300,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/LIBS/header/PH1-11-UA.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz -1 -7.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
