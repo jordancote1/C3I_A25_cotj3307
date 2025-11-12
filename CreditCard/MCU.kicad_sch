@@ -3053,6 +3053,28 @@
 			)
 		)
 	)
+	(global_label "AudioL"
+		(shape output)
+		(at 185.42 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "131665a4-c31a-4f6e-ab81-670c09bbffa3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.5737 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO9"
 		(shape output)
 		(at 226.06 43.18 180)
@@ -3198,6 +3220,28 @@
 		(uuid "34f88b5f-cc25-4967-8dd0-3e1870efe072")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 74.8914 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape output)
+		(at 185.42 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ad24c5c-b5aa-476e-96ff-06261f777f06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.1547 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,6 +3418,28 @@
 		(uuid "84a00e3f-fdad-4040-90d6-46a4f526b46b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 279.7242 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AudioR"
+		(shape output)
+		(at 185.42 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84ea5200-75ff-4c66-905d-26a2417a95bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.8156 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,28 +3713,6 @@
 			)
 		)
 	)
-	(global_label "SCK"
-		(shape output)
-		(at 185.42 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e3766ee3-2510-42db-920d-857ed60b4427")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.1547 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU_EN"
 		(shape output)
 		(at 227.33 99.06 180)
@@ -3687,6 +3731,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AudioCS"
+		(shape output)
+		(at 185.42 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e621d4c6-7523-42d8-9dc6-21bf55cb6ecc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.0251 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
