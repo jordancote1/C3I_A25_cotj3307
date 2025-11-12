@@ -316,4 +316,15 @@
 		(uuid "de0042b8-f735-47c8-bdbd-746c2364ed80")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/LIBS/USB-C/12402012E212A/12402012E212A.step"
+		(offset
+			(xyz 40 2.2 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
