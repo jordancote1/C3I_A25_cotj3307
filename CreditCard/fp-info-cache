@@ -1,4 +1,4 @@
-26778480186968395
+26780243106317547
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70783,6 +70783,13 @@ GOLD_FINGERS
 0
 1
 1
+Library
+LCD
+PH1-11-UA
+Connector
+0
+11
+11
 Library
 RGT16_1P7X1P7
 

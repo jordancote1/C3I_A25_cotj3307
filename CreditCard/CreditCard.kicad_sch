@@ -433,6 +433,19 @@
 		(uuid 3e9caa94-19ed-42c9-81ab-c472c024d41f)
 	)
 	(rectangle
+		(start 146.05 77.47)
+		(end 214.63 139.446)
+		(stroke
+			(width 0.381)
+			(type dash)
+			(color 20 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a2d5594a-22d1-4410-bac9-71aeca869aef)
+	)
+	(rectangle
 		(start 215.9 12.7)
 		(end 284.48 74.676)
 		(stroke
@@ -470,6 +483,18 @@
 			)
 		)
 		(uuid "36b86665-a236-4544-a6c4-460376b733b3")
+	)
+	(text "MECANICAL\n"
+		(exclude_from_sim no)
+		(at 157.734 80.772 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "3ceb2513-0c75-4f2e-88b0-4496a1c565fe")
 	)
 	(text "TESTPOINTS"
 		(exclude_from_sim no)
