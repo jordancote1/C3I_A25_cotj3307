@@ -192,6 +192,68 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Library:mounting_3mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MEC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:Mounting_3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "standard 3m screws"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "mounting_3mm_0_1"
+				(circle
+					(center 0 0)
+					(radius 7.4053)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -531,6 +593,17 @@
 			)
 		)
 		(uuid "bf1fdb72-b6c9-4f92-91e6-6383aac64866")
+	)
+	(text "mounting holes 3mm"
+		(exclude_from_sim no)
+		(at 187.706 81.28 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d376120c-7c4f-4cbe-bd25-0742249fc8e2")
 	)
 	(wire
 		(pts
@@ -3736,6 +3809,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:mounting_3mm")
+		(at 184.15 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19b031b4-7799-4ae9-b84f-c6c7a315b5f8")
+		(property "Reference" "MEC2"
+			(at 193.04 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 193.04 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:Mounting_3mm"
+			(at 184.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "standard 3m screws"
+			(at 184.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CreditCard"
+				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
+					(reference "MEC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LIB:Fiducial")
 		(at 234.95 41.91 0)
 		(unit 1)
@@ -4058,6 +4195,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:mounting_3mm")
+		(at 157.48 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7916b312-28c4-4afc-b988-ed9e018cc1a2")
+		(property "Reference" "MEC3"
+			(at 166.37 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 166.37 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:Mounting_3mm"
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "standard 3m screws"
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CreditCard"
+				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
+					(reference "MEC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 165.1 24.13 0)
 		(unit 1)
@@ -4119,6 +4320,70 @@
 			(project "CreditCard"
 				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:mounting_3mm")
+		(at 184.15 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a31f83c2-eb57-474d-b1dc-3c02f88aa742")
+		(property "Reference" "MEC4"
+			(at 193.04 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 193.04 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:Mounting_3mm"
+			(at 184.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "standard 3m screws"
+			(at 184.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CreditCard"
+				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
+					(reference "MEC4")
 					(unit 1)
 				)
 			)
@@ -4381,6 +4646,70 @@
 			(project "CreditCard"
 				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
 					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:mounting_3mm")
+		(at 157.48 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fac6ed1c-e693-4e98-b0ef-c9e3e7d33732")
+		(property "Reference" "MEC1"
+			(at 166.37 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 166.37 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:Mounting_3mm"
+			(at 157.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "standard 3m screws"
+			(at 157.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
+					(reference "MEC1")
 					(unit 1)
 				)
 			)
