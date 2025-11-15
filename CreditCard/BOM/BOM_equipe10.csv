@@ -1,0 +1,32 @@
+Reference,Value,Datasheet,Footprint,Qty,DNP,Device Name
+"C1,C8,C9,C16,C18",0.1uF,https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104,Capacitor_SMD:C_0603_1608Metric,6,,CC0603KRX7R7BB104
+C19,0.1uF,https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V,Capacitor_SMD:C_0805_2012Metric,1,,CC0805KRX7R9BB104
+"C2,C14",1uF,https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V,Capacitor_SMD:C_0603_1608Metric,2,,CC0603KRX7R7BB105
+"C3,C4,C13,C15",4.7uF,https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf,Capacitor_SMD:C_0805_2012Metric,8,,CC0805KKX5R7BB475
+C7,22uF,https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf,Capacitor_SMD:C_1206_3216Metric,1,,CC1206KKX5R5BB226
+C24,47uf,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL21A476MQYNNNE_Spec.pdf,Capacitor_SMD:C_0603_1608Metric,10,,CL21A476MQYNNNE
+"C12,C17",12pF,https://www.yageo.com/en/Chart/Download/pdf/CC0603JPNPO9BN120,Capacitor_SMD:C_0603_1608Metric,2,,CC0603JPNPO9BN120
+D2,LED-RED,https://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf,LED_SMD:LED_0805_2012Metric,1,,LTST-C171KRKT
+"D1,D3",LED-GREEN,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1134/LTST-C171GKT.pdf,LED_SMD:LED_0805_2012Metric,2,,LTST-C171GKT
+D5,D_TVS,https://www.diodes.com/assets/Datasheets/DESD5V0S1BA.pdf,Diode_SMD:D_SOD-323_HandSoldering,1,,DESD5V0S1BA-7
+J1,2059-302/998-403,https://wago.priintcloud.com/datasheets/2059-302_998-403/en/,LIB:CONN2_2059-302&slash_998-403_WAG,1,,2059-302/998-403
+J2,4311,https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4311/10313914,Library:LCD,1,,4311
+J3,12402012E212A,https://www.digikey.ca/en/products/detail/amphenol-cs-commercial-products/12402012E212A/13683192,,1,,12402012E212A
+L1,4.7uH,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1290/MBKK2012T4R7M_SS.pdf,LED_SMD:LED_0805_2012Metric,1,,MBKK2012T4R7M
+R8,10k,https://www.vishay.com/docs/20043/crcwhpe3.pdf,Resistor_SMD:R_0402_1005Metric,1,,CRCW040210K0FKEDHP
+"R1,R2,R15",10k,https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf,Resistor_SMD:R_0603_1608Metric,3,,ERJ-PB3B1002V
+"R3,R4,R5,R16,R18",1k,https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L,Resistor_SMD:R_0603_1608Metric,5,,RC0603JR-7W1KL
+R7,4.35k,https://www.yageogroup.com/content/Resource%20Library/Datasheet/PYU-SR_20105_ROHS_L.pdf,Resistor_SMD:R_0402_1005Metric,1,,SR0402FR-7T4K7L
+R10,100k,https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L,Resistor_SMD:R_0603_1608Metric,1,,RC0603FR-7W100KL
+"R15,R16",18k,https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L,Resistor_SMD:R_0603_1608Metric,2,,RC0603JR-0718KL
+"R14,R20",0R,https://www.vishay.com/docs/20065/rcse3.pdf,Resistor_SMD:R_0603_1608Metric,2,,RCS06030000Z0EA
+S1,EG1271A,https://www.digikey.ca/en/products/detail/e-switch/EG1271A/251336?s=N4IgTCBcDaIKIHECMYDsSCCIC6BfIA,,1,,EG1271A
+U1,BQ24230RGTR,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq24230,LIB:RGT16_1P7X1P7,1,,BQ24230RGTR
+U2,MCP1603T-330I/OS,https://ww1.microchip.com/downloads/en/DeviceDoc/22042B.pdf,LIB:TSOT5_MC_MCH,1,,MCP1603T-330I/OS
+"U3,U4,U5,U6,U7",PTS645SK43SMTR92LFS,https://www.ckswitches.com/media/1471/pts645.pdf,LIB:SWITCH_45SK43SMTR92LFS,5,,PTS645SK43SMTR92 LFS
+U8,ESP32-C6-WROOM-1U-N4,https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf,LIB:XCVR_ESP32-C6-WROOM-1U-N4,1,,ESP32-C6-WROOM-1U-N4
+"U9,U11",SPKM.36.8.B,https://www.digikey.ca/en/products/detail/taoglas-limited/SPKM-36-8-B/21704213,,2,,SPKM.36.8.B
+U10,PAM8403DR,https://www.digikey.ca/en/products/detail/diodes-incorporated/PAM8403DR/4033287,,1,,PAM8403DR
+Y1,MS1V-T1K-32.768KHZ-12.5PF-20PPM-TA-QC,https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/MS1V-T1K.pdf,LIB:XTAL_MS1V-T1K-32.768KHZ-12.5PF-20PPM-TA-QC,1,,MS1V-T1K-32.768KHZ-12.5PF-20PPM-TA-QC
+N.A.,DKS-CR2032H,https://www.digikey.ca/en/products/detail/digikey/DKS-CR2032H/21379579,,1,,Coin cell holder
+N.A.,CR2032,https://www.digikey.ca/en/products/detail/murata-electronics/CR2032/15991307,,1,,Coin cell battery
