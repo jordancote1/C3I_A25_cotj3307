@@ -5,6 +5,113 @@
 	(uuid "c5fc43a4-f777-44d4-b47b-29f5fbdfd530")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1091,76 +1198,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:GoldFingers"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Library:GOLD_FINGERS"
-				(at 0.762 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GoldFingers_1_1"
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "GOLDFINGER"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Library:MS1V-T1K-32.768KHZ-12.5PF-20PPM-TA-QC"
 			(pin_names
 				(offset 1.016)
@@ -2222,6 +2259,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 133.35) (xy 105.41 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6191083a-a902-43cb-a4b0-b845f69faedd")
+	)
+	(wire
+		(pts
 			(xy 107.95 73.66) (xy 127 73.66)
 		)
 		(stroke
@@ -2292,16 +2339,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 139.7) (xy 105.41 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5952db6-c956-4ec3-bb81-e154306d0fb5")
-	)
-	(wire
-		(pts
 			(xy 167.64 99.06) (xy 167.64 101.6)
 		)
 		(stroke
@@ -2359,16 +2396,6 @@
 			(type default)
 		)
 		(uuid "b7f3d0ac-6782-4fa2-be0b-f38b7c87ade3")
-	)
-	(wire
-		(pts
-			(xy 105.41 144.78) (xy 111.76 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf27c9f5-3420-4b8d-b6df-0858a0454a24")
 	)
 	(wire
 		(pts
@@ -4770,71 +4797,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 111.76 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21f469ef-fb8f-4d2c-a464-68805c56fbf0")
-		(property "Reference" "#PWR032"
-			(at 111.76 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 108.204 137.668 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 111.76 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62618cd3-4186-429e-ad12-f41933973ebf")
-		)
-		(instances
-			(project "CreditCard"
-				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e/e30e25a5-3034-4dd4-af11-e901f7261987"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 107.95 53.34 0)
 		(unit 1)
@@ -6248,72 +6210,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:GoldFingers")
-		(at 105.41 139.7 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63394e5a-689e-4356-853b-1a52acc2ead4")
-		(property "Reference" "F4"
-			(at 105.41 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 102.87 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:GOLD_FINGERS"
-			(at 104.648 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc77136e-8d60-4e11-b832-dcbc227c155a")
-		)
-		(instances
-			(project ""
-				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e/e30e25a5-3034-4dd4-af11-e901f7261987"
-					(reference "F4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 248.92 35.56 180)
 		(unit 1)
@@ -7153,72 +7049,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9174b296-ac53-4573-b31a-bc89f4b4e804")
-		(property "Reference" "#PWR041"
-			(at 111.76 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 148.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ede2948-60b8-4e7c-9f2d-3a899614850b")
-		)
-		(instances
-			(project "CreditCard"
-				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e/e30e25a5-3034-4dd4-af11-e901f7261987"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 39.37 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7279,72 +7109,6 @@
 			(project "CreditCard"
 				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e/e30e25a5-3034-4dd4-af11-e901f7261987"
 					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:GoldFingers")
-		(at 105.41 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b388a55f-d135-44a8-99bf-5d673a84629b")
-		(property "Reference" "F3"
-			(at 105.41 135.382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 102.87 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:GOLD_FINGERS"
-			(at 104.648 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67528cd9-ccbd-4844-80c2-bd730e11b67a")
-		)
-		(instances
-			(project ""
-				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e/e30e25a5-3034-4dd4-af11-e901f7261987"
-					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -9107,6 +8871,73 @@
 			(project "CreditCard"
 				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e/e30e25a5-3034-4dd4-af11-e901f7261987"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 97.79 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4e0a5cd-187c-458e-bc7b-62a7d48a36d8")
+		(property "Reference" "IOCHG_TP1"
+			(at 96.012 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP"
+			(at 99.314 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 102.87 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bbff4c1-bb97-4b2b-a887-d58c4d58815f")
+		)
+		(instances
+			(project "CreditCard"
+				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e/e30e25a5-3034-4dd4-af11-e901f7261987"
+					(reference "IOCHG_TP1")
 					(unit 1)
 				)
 			)

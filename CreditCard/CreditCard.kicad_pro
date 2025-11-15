@@ -48,11 +48,104 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|107395000|55100000|01de6857-3fb2-4ab3-838b-e139cb8d7c48|aa5c5145-975c-4799-8b3f-1d7b80d9d17b",
+          ""
+        ],
+        [
+          "hole_clearance|107395000|55300000|01de6857-3fb2-4ab3-838b-e139cb8d7c48|1c03645b-c70c-43c2-98b7-48d05119fff3",
+          ""
+        ],
+        [
+          "hole_clearance|107395000|60700000|8d2ee6a2-2725-441d-8b4a-523675b50eaa|2b339d45-3312-4a26-ad41-bf62a181f6e7",
+          ""
+        ],
+        [
+          "hole_clearance|107395000|60900000|8d2ee6a2-2725-441d-8b4a-523675b50eaa|6404a3dc-07eb-457b-a817-b2835d7c50fe",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|102000000|123400000|cf708464-901f-4f06-847c-b6118c61a7d5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|102000000|38400000|ffe90556-c4dc-4f57-a17f-aa2135c2d8bb|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|149000000|123400000|9e47aa18-a20c-4ef1-aa26-b304c6e69d58|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|149000000|38400000|9ee4a428-214b-47ce-8464-025d7000b88d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "malformed_courtyard|105000000|63900000|dab50b22-e2e0-44b2-85d4-8bc5b10418ee|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "malformed_courtyard|115000000|62900000|33b37e51-b85c-44cc-9b7a-cab42828f6ea|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|107551000|61693000|ab13ebf2-6527-444b-81cd-1e089df9dc75|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "solder_mask_bridge|107395000|55100000|aa5c5145-975c-4799-8b3f-1d7b80d9d17b|1c03645b-c70c-43c2-98b7-48d05119fff3",
+          ""
+        ],
+        [
+          "solder_mask_bridge|107395000|55900000|1c03645b-c70c-43c2-98b7-48d05119fff3|f00f6ad8-d90f-46b6-adf0-a43ae9f3a1ec",
+          ""
+        ],
+        [
+          "solder_mask_bridge|107395000|56600000|f187c8e9-31df-4aa4-a2b5-b3d11c391271|f00f6ad8-d90f-46b6-adf0-a43ae9f3a1ec",
+          ""
+        ],
+        [
+          "solder_mask_bridge|107395000|56900000|f187c8e9-31df-4aa4-a2b5-b3d11c391271|2c8dcd23-894d-498f-beda-e268c8af0c43",
+          ""
+        ],
+        [
+          "solder_mask_bridge|107395000|57600000|26125412-9c75-4d85-849c-3647454ae9c4|2c8dcd23-894d-498f-beda-e268c8af0c43",
+          ""
+        ],
+        [
+          "solder_mask_bridge|107395000|58100000|6381a468-b3df-42dc-a668-db31b1806c83|26125412-9c75-4d85-849c-3647454ae9c4",
+          ""
+        ],
+        [
+          "solder_mask_bridge|107395000|58400000|6381a468-b3df-42dc-a668-db31b1806c83|84b0e369-ea0c-4b72-a90b-a6a44822ff5f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|107395000|59100000|4bcb4804-0847-4201-bd5b-74805d0f5973|84b0e369-ea0c-4b72-a90b-a6a44822ff5f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|107395000|59400000|4bcb4804-0847-4201-bd5b-74805d0f5973|625a5b54-7f5e-4f43-9234-8c036443e0f5",
+          ""
+        ],
+        [
+          "solder_mask_bridge|107395000|60100000|2b339d45-3312-4a26-ad41-bf62a181f6e7|625a5b54-7f5e-4f43-9234-8c036443e0f5",
+          ""
+        ],
+        [
+          "solder_mask_bridge|107395000|60900000|6404a3dc-07eb-457b-a817-b2835d7c50fe|2b339d45-3312-4a26-ad41-bf62a181f6e7",
+          ""
+        ],
+        [
+          "unconnected_items|123646500|95499999|F.Cu|4|02f5358a-1b13-4c42-a250-5dadcfdf5544|c7d96b8f-2718-4db9-beb9-a0d3ca3e6a02",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -497,7 +590,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "FAB/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

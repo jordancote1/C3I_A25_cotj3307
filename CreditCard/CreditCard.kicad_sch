@@ -627,6 +627,76 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 67.31) (xy 167.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5b4f87-7e06-484b-b1b6-ada8b4cadda0")
+	)
+	(wire
+		(pts
+			(xy 161.29 44.45) (xy 167.64 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "448d93fc-f041-4e4b-90c1-5a288d7b8857")
+	)
+	(wire
+		(pts
+			(xy 161.29 68.58) (xy 167.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64fd5dcb-d388-4c9f-8f20-875703c2ca46")
+	)
+	(wire
+		(pts
+			(xy 161.29 55.88) (xy 167.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85386508-0fdc-4ff2-a809-0887f2fd9c55")
+	)
+	(wire
+		(pts
+			(xy 161.29 54.61) (xy 161.29 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb254f5-fc28-4166-967f-02e037a5bbfe")
+	)
+	(wire
+		(pts
+			(xy 167.64 54.61) (xy 167.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e0a502-f14f-491b-b5ff-7f76682c1c9b")
+	)
+	(wire
+		(pts
+			(xy 167.64 43.18) (xy 167.64 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac675676-75ca-4e62-91c0-8f14b3e39dd0")
+	)
+	(wire
+		(pts
 			(xy 180.34 31.75) (xy 180.34 35.56)
 		)
 		(stroke
@@ -634,6 +704,26 @@
 			(type default)
 		)
 		(uuid "c6765e1f-3ddb-4444-a5c5-c8a0d2b59117")
+	)
+	(wire
+		(pts
+			(xy 161.29 43.18) (xy 161.29 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08db3c8-3b63-4bfd-8054-2bd0387e6440")
+	)
+	(wire
+		(pts
+			(xy 161.29 67.31) (xy 161.29 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f1745a-aa48-4dca-9274-112831ad2d2c")
 	)
 	(wire
 		(pts
@@ -3745,6 +3835,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 167.64 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0efa9d9b-bdb4-4d7d-bb6d-581967dd8a96")
+		(property "Reference" "Vbus_TP1"
+			(at 165.862 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP"
+			(at 169.164 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 172.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a652fb51-b43f-4044-9950-12361b174872")
+		)
+		(instances
+			(project "CreditCard"
+				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
+					(reference "Vbus_TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LIB:Fiducial")
 		(at 257.81 41.91 0)
 		(unit 1)
@@ -4067,6 +4224,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 161.29 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33c4f3ab-8bba-42d0-944a-9813503ec791")
+		(property "Reference" "#PWR077"
+			(at 161.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vsys"
+			(at 157.734 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 161.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73e9c1c2-adee-4716-99b9-40db27356c1a")
+		)
+		(instances
+			(project "CreditCard"
+				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 161.29 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c9ce9eb-9bb9-43bb-88c4-c312abba14f1")
+		(property "Reference" "#PWR079"
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vbus"
+			(at 157.734 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d0bb7eb-bba8-4c23-80b4-0f438311fb38")
+		)
+		(instances
+			(project "CreditCard"
+				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LIB:Fiducial")
 		(at 234.95 52.07 0)
 		(unit 1)
@@ -4260,15 +4547,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 165.1 24.13 0)
+		(at 167.64 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "90631795-06cf-4f54-9de5-3986c9172f54")
-		(property "Reference" "TP1"
-			(at 163.322 19.05 0)
+		(uuid "9c1c3e65-9e8b-451a-8bee-473b329463e0")
+		(property "Reference" "Vbat_TP1"
+			(at 165.862 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,8 +4563,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 166.624 22.098 0)
+		(property "Value" "TP"
+			(at 169.164 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +4574,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 170.18 24.13 0)
+			(at 172.72 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4296,7 +4583,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 24.13 0)
+			(at 172.72 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,7 +4592,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 165.1 24.13 0)
+			(at 167.64 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,12 +4601,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c70dc80-b95b-4e9a-859b-6090b27b8bf5")
+			(uuid "ecd8741f-efb3-4876-8f6c-f42544bd3c81")
 		)
 		(instances
 			(project "CreditCard"
 				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
-					(reference "TP1")
+					(reference "Vbat_TP1")
 					(unit 1)
 				)
 			)
@@ -4462,7 +4749,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b30f8136-bc28-4926-b118-d99cc3e6e814")
-		(property "Reference" "GNDTP1"
+		(property "Reference" "GND_TP1"
 			(at 177.8 26.416 0)
 			(effects
 				(font
@@ -4514,7 +4801,139 @@
 		(instances
 			(project "CreditCard"
 				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
-					(reference "GNDTP1")
+					(reference "GND_TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 161.29 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b72a5a20-f510-4a6d-b091-0f51ca5eebdb")
+		(property "Reference" "#PWR078"
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vbat"
+			(at 157.734 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8954c642-1184-4e1b-8c99-dd35f188d47c")
+		)
+		(instances
+			(project "CreditCard"
+				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 167.64 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0563770-cdcf-4c00-b07e-28d8cb16580c")
+		(property "Reference" "Vsys_TP1"
+			(at 165.862 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP"
+			(at 169.164 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 172.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 167.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ea122b5-8075-4709-9b31-17e183d61ed4")
+		)
+		(instances
+			(project "CreditCard"
+				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
+					(reference "Vsys_TP1")
 					(unit 1)
 				)
 			)
@@ -4529,7 +4948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8253ad8-8144-4597-8a69-f7e3a1187ae3")
-		(property "Reference" "3VTP1"
+		(property "Reference" "3V3_TP1"
 			(at 165.862 26.67 0)
 			(effects
 				(font
@@ -4581,7 +5000,7 @@
 		(instances
 			(project "CreditCard"
 				(path "/374dba13-75d6-44a0-b8b2-0ca0aa70330e"
-					(reference "3VTP1")
+					(reference "3V3_TP1")
 					(unit 1)
 				)
 			)
